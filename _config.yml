@@ -1,1 +1,7 @@
+title: Germano's personal page on GitHub
+description: So far, just a placeholder for scattered material
+show_download: false
+
 theme: jekyll-theme-architect
+sidebar: true
+markdown: kramdown

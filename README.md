@@ -1,3 +1,3 @@
-## Readme
+# Readme
 
 My personal page

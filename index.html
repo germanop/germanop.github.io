@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div id="home">
+  <h1>Content</h1>
+  <ul class="posts">
+    {% for page in site.html_pages %}
+      {% if  page.title == nil %}
+        {% continue %}
+      {% endif %}
+      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
